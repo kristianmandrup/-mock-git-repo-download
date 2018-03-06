@@ -1,5 +1,7 @@
 # Mock git-repo-download
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/mock-git-repo-download.svg)](https://greenkeeper.io/)
+
 ## Notice
 
 Currently a WIP. Please help contribute to make it happen ;)
