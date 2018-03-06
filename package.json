@@ -1,0 +1,52 @@
+{
+  "name": "mock-git-repo-download",
+  "version": "0.1.0",
+  "description": "Utils to mock git-repo-download",
+  "main": "src",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "mock",
+    "git-repo-download",
+    "git",
+    "repo",
+    "download"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristianmandrup/mock-git-repo-download.git"
+  },
+  "author": "Kristian Mandrup <kmandrup@gmail.com>",
+  "contributors": [
+    "Kristian Mandrup <kmandrup@gmail.com>"
+  ],
+  "license": "MIT",
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+  },
+  "dependencies": {
+    "download-git-repo": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.1.4",
+    "@types/mock-fs": "^3.6.30",
+    "@types/nock": "^9.1.2",
+    "@types/node": "^9.4.6",
+    "jest": "^22.4.2",
+    "jest-cli": "^22.4.2",
+    "mock-fs": "^4.4.2",
+    "nock": "^9.2.3",
+    "ts-jest": "^22.4.1",
+    "typescript": "^2.7.2"
+  }
+}
