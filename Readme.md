@@ -1,6 +1,11 @@
-# Mock Git repo download
+# Mock git-repo-download
 
-Will extract this into a small reusable library.
+## Notice
+
+Currently a WIP. Please help contribute to make it happen ;)
+
+## Idea
+
 Could likely be done sth like this
 
 ```js
